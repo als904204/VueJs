@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer>&copy;2023 memo app. All rights reserved</footer>
+  <footer>&copy;2023 Memo App. All rights reserved</footer>
 </template>
 
 <style scoped>
