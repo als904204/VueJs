@@ -3,9 +3,15 @@
 </script>
 
 <template>
-  <header>I AM HEADER</header>
+  <header>Memo App</header>
 </template>
 
-<style scoped>
 
+<style scoped>
+header{
+  text-align: center;
+  padding: 25px;
+  border-bottom: 1px solid #eee;
+  background: #f7f7f7;
+}
 </style>
