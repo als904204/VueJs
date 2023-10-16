@@ -1,17 +1,15 @@
 <script setup>
-import {ref} from "vue";
-import HelloWorld from "@/components/HelloWorld.vue";
+import { createApp, ref } from "vue";
 
-let count = ref(0);
-function handleClickAdd() {
+const count = ref(0);
+
+function counter () {
   count.value++;
 }
 </script>
 
 <template>
-  <button v-on:click="handleClickAdd">+</button>
-  <p>{{count}}</p>
-  <HelloWorld msg=""></HelloWorld>
+  <button @click="counter">Count is : {{ count }}</button>
 </template>
 
 <style scoped>
