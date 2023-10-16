@@ -1,19 +1,13 @@
 <script setup>
-import { createApp, ref } from "vue";
-
-const count = ref(0);
-
-function counter () {
-  count.value++;
-}
+import Ground from "@/components/Ground.vue";
 </script>
 
 <template>
-  <button @click="counter">Count is : {{ count }}</button>
+  <div class="app">
+    <Ground/>
+  </div>
 </template>
 
 <style scoped>
-  button {
-    font-weight: bold;
-  }
+
 </style>
