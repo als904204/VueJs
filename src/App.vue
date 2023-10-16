@@ -13,5 +13,7 @@ function counter () {
 </template>
 
 <style scoped>
-
+  button {
+    font-weight: bold;
+  }
 </style>
